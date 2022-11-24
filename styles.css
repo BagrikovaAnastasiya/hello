@@ -1,8 +1,25 @@
-body, html { width: 70%; margin:auto; }
+html{
+   /* Это изображение отобразиться на всю страницу */
+   background:url('i.jpg') no-repeat center center fixed;
+
+   /* Принудительно указываем высоту равную 100% от высоты окна браузера */
+   min-height:100%;
+
+   /* Магия */
+   background-size:cover;
+}
+
+body{
+   /* Для некоторых мобильных браузеров */
+   min-height:100%;
+   background-color: hsl(320, 20%, 97%);
+}
+body, html { width: 70%; margin:auto;  padding: 20px 25px; }
 h1, h2, h3
   {
   font-family: Arial, sans-serif;
   margin-top: 1,5 em;
+  text-align: center
   }
 h1
 {
@@ -10,6 +27,8 @@ h1
 }
 table {
     border-collapse: collapse;
+    text-align: center;
+    margin: auto;
  }
  th, td {
     border: 1px solid black;
