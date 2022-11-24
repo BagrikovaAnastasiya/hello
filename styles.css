@@ -1,0 +1,28 @@
+body, html { width: 70%; margin:auto; }
+h1, h2, h3
+  {
+  font-family: Arial, sans-serif;
+  margin-top: 1,5 em;
+  }
+h1
+{
+    font-size: 32px;
+}
+table {
+    border-collapse: collapse;
+ }
+ th, td {
+    border: 1px solid black;
+ }
+ figcaption
+ {
+    font-style: italic;
+    text-align: left;
+ }
+ figure
+ {
+    clear: right;
+    float: right;               
+ }
+ figure{width:10em}
+ figure>img{width:100%}
